@@ -20,7 +20,7 @@ public class OnTrackStatusTest {
     @Test
     public void testCompletedStatus() {
         String result = OnTrackStatus.getTaskStatusMessage("Completed");
-        assertEquals("Your task is fully completed.", result);
+        assertEquals("Your task has been completed.", result);
     }
 
     @Test
